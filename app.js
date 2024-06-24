@@ -54,8 +54,6 @@ const modules = ["discord.js", "fs"];
         const commandName = args.shift().toLowerCase(); // Modify command name to lower case
     
         // Getting command with command name
-        Functions.print(message.author.id)
-        Functions.print(config.bot.allowed.includes(message.author.id))
         if (commandsList.includes(config.bot.prefix+commandName) && !config.bot.allowed.includes(message.author.id)) { // Returning process if user didn't have access
             message.reply(`You don't have access to use this command!`);
             return;
