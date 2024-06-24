@@ -4,6 +4,7 @@ class Functions {
     print(text) {
         console.log("[Controller] >> " + text);
     };
+
     async cekModule(name) {
         try {
             require.resolve(name);

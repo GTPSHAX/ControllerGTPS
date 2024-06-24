@@ -1,5 +1,10 @@
 {
     "bot": {
-        "token": "Your Token Bot"
+        "token": "You Bot Token",
+        "prefix": ".",
+        "allowed": ["691148414641111121", "UserID"]
+    },
+    "path": {
+        "server_exe": "C:\\Users\\Administrator\\Downloads\\GrowPlus-main\\core\\Server.exe"
     }
 }
